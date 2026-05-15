@@ -103,7 +103,3 @@ We are building the **minimal viable abstractions** first. Do not over-engineer.
 * [ ] **Static Scheduler:** Simple cost/latency heuristic routing matrix.
 
 ---
-
-## 💡 Prompt for LLM Co-Pilots (Like Claude)
-
-> "Hey Claude, I am building **InferMesh** based on the README above. I want to build the foundational abstractions first. Please write a clean, production-grade Python skeleton for `node_agent/health/monitor.py` (to collect memory/power metrics) and the abstract base class for `control_plane/scheduler/base.py` that selects nodes based on latency constraints. Keep it modular and async-first."
